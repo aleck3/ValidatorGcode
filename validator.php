@@ -1,4 +1,7 @@
 <?php
+/*This is the utility for G-code programmers 
+to find errors in code when few different programs 
+combining in one code.*/
 $validGcode = '
 /(M5\r\n)??G80G49G21
 G28Z0
